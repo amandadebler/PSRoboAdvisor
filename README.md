@@ -25,6 +25,6 @@ To find the best fit portfolio for $40,000 with a transaction fee of $4.95 per p
 
 $myportfolio = Get-BestFitPortfolio -amount 40000 -transactionCost 4.95 -maxCostRatio 0.01
 
-Cost of your portfolio, including transaction fees: $myportfolio.cost
-List of stocks and how many shares to buy: $myportfolio.portfolio
-How many different stocks are in this portfolio: $myportfolio.portfolio.count
+- Cost of your portfolio, including transaction fees: $myportfolio.cost
+- List of stocks and how many shares to buy: $myportfolio.portfolio
+- How many different stocks are in this portfolio: $myportfolio.portfolio.count
